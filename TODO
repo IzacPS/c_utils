@@ -1,0 +1,9 @@
+
+chash_table:
+  ☐ remove function
+  ☐ add iterator
+  ✘ use realloc instead of calloc with old ptr on resize function @cancelled(22-03-19 18:58)
+    - cant be done because after realloc, we need keep track of the old bucket to hash again.
+
+cstack: 
+  - check the need for a tolist function
